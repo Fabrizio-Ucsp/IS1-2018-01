@@ -40,3 +40,13 @@ html {
 	margin-top: 4%;
 	margin-left: 23%;
 }
+#CantidadPaquetes{
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 67%;
+}
+#Tiempo{
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 35%;
+}
