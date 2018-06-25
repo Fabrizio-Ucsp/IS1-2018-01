@@ -1,0 +1,53 @@
+html {
+    background-image: url("eee.jpg");
+}
+#regresar{
+	margin-top: 5%;
+	margin-left: 75%;
+}
+#titulosobre{
+	text-align: center;
+	position: absolute;
+	margin-left: 37%;
+	color: white;
+}
+#BotonInter1{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+#BotonInter2{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 36%;
+}
+#BotonInter3{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 60%;
+}
+#imagen1{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+#imagen2{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 37%;
+}
+#imagen3{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 65%;
+}
+#ofresco{
+	margin-top: 7%;
+	margin-left: 8%;
+	text-align: center;
+}
+#pido{
+	margin-top: 7%;
+	margin-left: 50%;
+	text-align: center;
+}
