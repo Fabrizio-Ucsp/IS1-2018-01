@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PaginaIntercambios</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilosmiscromos.css">
+	<link type="text/css" rel="stylesheet" href="css/materialize.css">
+</head>
+<body>
+	<script type="text/javascript">
+		function drag(ev) {
+		   ev.dataTransfer.setData("text", ev.target.id);
+		}
+
+		function allowDrop(ev) {
+		  ev.preventDefault();
+		}
+
+		function drop(ev) {
+		  ev.preventDefault();
+		  var data = ev.dataTransfer.getData("text");
+		  ev.target.appendChild(document.getElementById(data));
+		}
+	</script>
+	<div id="titulosobre">
+    	<h4 class="z-depth-1 #e53935 red darken-1">Mis Cromos</h4>
+    </div>
+    <section id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+    	<div id="Cromos">
+    		.
+	    	<img class="cromo" src="estilos/repeticua.png" draggable="true" ondragstart="drag(event)" id="drag1"/>
+		  	<img class="cromo" src="estilos/repeticua.png" draggable="true" ondragstart="drag(event)" id="drag2"/>
+		  	<img class="cromo" src="estilos/repeticua.png" draggable="true" ondragstart="drag(event)" id="drag3"/>
+		  	<img class="cromo" src="estilos/repeticua.png" draggable="true" ondragstart="drag(event)" id="drag4"/>
+	  	</div>
+	  	<div id="pila">
+	    	<h4 class="z-depth-1 #e53935 red darken-1">Pila de Intercambio</h4>
+	    </div>
+	  	<div id="padre">
+	  		<div class="tipo" id="intercambio" ondrop="drop(event)" ondragover="allowDrop(event)">
+	  		</div>
+	    </div>
+
+	</section>
+	<div id="iralbum">
+		<img src="estilos/dura.png" width="300px">
+	</div>
+	<div>
+		<a id="iraalbum" class="waves-effect waves-light btn #e53935 red darken-1" href="MiAlbum.html">Pegar figuras en el Album</a>
+	</div>
+    <div style="width: 34%; height: 676px;margin-left: 66%;">
+		<a id="regresar" class="waves-effect waves-light btn" href="PaginaPrincipal.html">Regresar</a>
+	</div>
+</body>
+</html>

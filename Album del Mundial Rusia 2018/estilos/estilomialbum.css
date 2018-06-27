@@ -1,0 +1,129 @@
+html {
+    background-image: url("eee.jpg");
+}
+#titulosobre{
+	text-align: center;
+	position: absolute;
+	margin-left: 45%;
+	color: white;
+}
+#boton1{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 21%;
+}
+#boton2{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 32%;
+}
+#boton3{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 42%;
+}
+#boton4{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 21%;
+}
+#boton5{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 32%;
+}
+#boton6{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 42%;
+}
+#boton7{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 57%;
+}
+#boton8{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 67%;
+}
+#boton9{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 77%;
+}
+#boton10{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 57%;
+}
+#boton11{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 67%;
+}
+#boton12{
+	position: absolute;
+	margin-top: 30.82%;
+	margin-left: 77%;
+}
+#UNO{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 18.5%;
+}
+#DOS{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 28.7%;
+}
+#TRES{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 38.8%;
+}	
+#CUATRO{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 18.5%;
+}
+#CINCO{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 28.7%;
+}
+#SEIS{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 38.8%;
+}
+#SIETE{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 53.7%;
+}
+#OCHO{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 63.9%;
+}
+#NUEVE{
+	position: absolute;
+	margin-top: 20.8%;
+	margin-left: 73.9%;
+}
+#DIEZ{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 53.7%;
+}
+#ONCE{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 63.9%;
+}
+#DOCE{
+	position: absolute;
+	margin-top: 32.8%;
+	margin-left: 73.9%;
+}
